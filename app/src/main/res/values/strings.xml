@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">InventoryAppStage2</string>
+
+    <!-- Title text for the empty view, which describes the empty box image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">The box is still empty!</string>
+
+    <!-- Title text for the empty view, which describes the empty box image [CHAR LIMIT=50] -->
+    <string name="empty_list_view_hint">Please add some books ...</string>
+
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book">Book</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_name">Name</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_price">Price</string>
+
+    <!-- Units for price of the book (Euro) in the editor [CHAR LIMIT=5] -->
+    <string name="unit_book_price">Euro</string>
+
+    <!-- Label for quantity of the book in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity">Quantity</string>
+
+    <!-- increase and decrease Buttons in the editor -->
+    <string name="increment_btn">+</string>
+    <string name="decrement_btn">-</string>
+
+    <!-- Label for supplier of the book in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Supplier</string>
+
+    <!-- Label for supplier phone in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_phone">Phone</string>
+
+    <!-- Text hint for supplier phone in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_phone">Phone</string>
+
+    <!-- Order Button in the editor -->
+    <string name="order_btn">Order by phone</string>
+
+
+
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+
+    <string name="exception_error_insertion">Insertion is not supported for </string>
+
+
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+
+    <!-- Title for the activity to edit a book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Dialog button text for the option to keep editing the current book -->
+    <string name="decrease_message">Negative quantity is not allowed!</string>
+
+    <!-- Tells the user empty fields are not allowed when inserting the book -->
+    <string name="empty_fields_message">Empty fields are not allowed, enter data in all fields</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Toast message in editor when new pet has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when current pet has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+
+    <!-- Toast message in editor when current pet was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+
+    <string name="exception_error">Cannot query unknown URI</string>
+
+
+
+    <string name="deletion_failed">Deletion Failed</string>
+
+
+
+
+
+    <!-- Tells the user the book is out of stock-->
+    <string name="out_of_stock_message">sold out</string>
+
+
+
+</resources>
